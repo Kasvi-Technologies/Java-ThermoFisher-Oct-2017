@@ -1,0 +1,122 @@
+Thermofisher excercises
+
+				Excercise1
+
+1. Create a method with name salaryHike and accepting arguements double salary and int hike
+
+2. perform business logic like below
+
+salary = salary + (salary *hike/100);
+
+3. return the final hiked salary to main method
+
+4. display the final salary in main method  
+
+				Excercise2
+				
+1. Create experience variable as int datatype in main method
+
+2. pass experience to salaryHike method
+
+3. salaryHike should be perfrmed only if experience is lessthan 5 and salary is lessthan 500000
+
+	Create an Objects
+
+1. create emp2 and emp3 objects and provide some values and print
+
+					Excercise 3
+
+1. Create a Address class with private variables addressId, address1, address2, street, city, zipcode
+
+2. provide getter and setter methods to each variable
+
+3. add new address variable in Employee class
+
+private Address address;
+//Association Design pattern, a class contans refrence //of another class
+
+4. provide getter and setter methods for address variable
+
+5. write toStrng method in Address
+
+6. In EmployeeTest, create Address object and set that address object to emp1
+
+7. get the address object from emp1 
+
+					Excercise 4
+
+1. Find sum of even numbers which occurs from 1 to 100
+ using for loop
+
+  a. exclude 50 in that list using continue keyword
+  b. ignore all the numbers after 80 using break 
+
+	for (int i=) {
+	}	
+
+
+	Excercise 5
+
+1. Create a Employee Array which can contain maximum 3 employees
+
+2. create 3 employee objects and add to employee array.
+
+3. repeat the employee array and calculate the sum of all employees salary and sum of all employess hiked salary 
+
+
+			Excercise 6
+			
+1. create abstract methods in Calculator
+like multiply and divide
+
+2. implement those abstract methods in child class
+
+3. Call those methods from test program
+
+				Excecise 7
+				
+Real Time Example
+
+1. create a EmployeeService abstract class
+
+2. Provide the below abstract methods
+
+public abstract void insertEmployee(Employee emp);
+public abstract void deleteEmployee(int empId);
+public abstract void updateEmployee(Employee emp);
+public abstract void fetchEmployeeById(int empId);
+public abstract void fetchAllEmployees();
+
+3. Create a EmployeeServiceImpl class and provide EmployeeService as a parent class
+
+4. implement all methods (as of now, provide SYSOUT)
+
+5. Write a test program and call all methods using
+EmployeeService empService = new EmployeeServiceImpl()
+
+		Excercise 8
+
+		1. create a Mobile class with id , name, price 
+2. create a MobileService abstract class and MobileServiceImpl class
+
+	addMobile(Mobile mobile)
+	deletMobile(int mobileId)
+	fetchMobileById(int mobileId)
+
+3. create a MobileDAO abstract class and MobileDAOImpl class
+
+	addMobile(Mobile mobile)
+	deletMobile(int mobileId)
+	fetchMobileById(int mobileId)
+
+4. provide reference of MobileDAO in MobileServiceImpl
+MobileDAO mobileDAO = new MobileDAOImpl();
+
+5. call dao methods from service method like below:
+	mobileDAO.addMobile(Mobile mobile)
+6. test program and call the service methods.	
+	
+	
+	
+
+
